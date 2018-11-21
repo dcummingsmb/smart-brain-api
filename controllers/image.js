@@ -1,6 +1,7 @@
 const Clarifai = require('clarifai');
 
 //moved to backend, so as not to expose api key
+//API key could still be exposed, best practice would be to use an environment variable
 const app = new Clarifai.App({
   apiKey: '01bffb3e4b7c4597b9ede672c2261f56'
  });
